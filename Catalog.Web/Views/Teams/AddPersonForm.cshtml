@@ -1,0 +1,14 @@
+﻿@model Catalog.Web.Models.AddPersonModel
+@{
+    ViewBag.Title = "AddPersonForm";
+}
+
+<h2>AddPersonForm</h2>
+@using (Html.BeginForm("AddPerson", "Teams", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.TeamId)
+    @Html.DropDownListFor(m => m.PersonId, Model.People)
+    <p><input type="submit" value="Add" /></p>
+}
+
+

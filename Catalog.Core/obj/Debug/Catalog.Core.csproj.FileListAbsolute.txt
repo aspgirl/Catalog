@@ -1,0 +1,6 @@
+C:\canBeReplaced\Catalog\Catalog.Core\bin\Debug\Catalog.Core.dll
+C:\canBeReplaced\Catalog\Catalog.Core\bin\Debug\Catalog.Core.pdb
+C:\canBeReplaced\Catalog\Catalog.Core\obj\Debug\Catalog.Core.csprojResolveAssemblyReference.cache
+C:\canBeReplaced\Catalog\Catalog.Core\obj\Debug\Catalog.Core.csproj.CoreCompileInputs.cache
+C:\canBeReplaced\Catalog\Catalog.Core\obj\Debug\Catalog.Core.dll
+C:\canBeReplaced\Catalog\Catalog.Core\obj\Debug\Catalog.Core.pdb

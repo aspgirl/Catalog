@@ -1,0 +1,10 @@
+﻿@model Catalog.Web.Models.TeamDetailsModel
+
+<div>
+    @Model.Name;
+    @foreach (var item in Model.Persons)
+    {
+        <div>@item.Name</div>
+    }
+</div>
+@Html.ActionLink("Add New Member", "AddPersonForm", "Teams", new { id = Model.Id }, null)

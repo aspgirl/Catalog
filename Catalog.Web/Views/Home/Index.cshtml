@@ -1,0 +1,7 @@
+﻿@using Catalog.Core
+@model IEnumerable<Team>
+
+@foreach (var item in Model)
+{
+    <li>@Html.ActionLink(item.Name, "Index", "Teams", new {id = item.Id}, null)</li>
+}
